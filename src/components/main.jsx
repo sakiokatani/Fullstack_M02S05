@@ -9,14 +9,14 @@ function Main() {
     );
 }
 
+const userName = prompt("Qual seu nome?");
+
 function MyComponent(props){
     if(props.showText){
         return(
-            <h1>Hello World</h1>
+            <h1>Hello {userName}!</h1>
         ) 
     }
+    return false;
 }
-
-
-
   export default Main;

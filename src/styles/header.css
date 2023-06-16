@@ -1,0 +1,28 @@
+@import url(./variables.css);
+
+.header{
+    display: flexbox;
+    text-align: right;
+    height: 10vh;
+    background-color: var(--headerblack);
+}
+
+#emailIcon{
+    width:50px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#notificationIcon{
+    width:50px;
+    margin-top: 10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+#userIcon{
+    width:50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+}

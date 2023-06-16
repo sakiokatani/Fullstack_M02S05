@@ -1,9 +1,10 @@
 body{
-    background-color:black;
+    background-color: var(--blackcolor);
+    height: 90vh;
 }
 
 h1{
-    margin-top: 50vh;
+    margin-top: 40vh;
     color: aliceblue;
     font-size: 120px;
 }
