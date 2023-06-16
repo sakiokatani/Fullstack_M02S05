@@ -1,0 +1,9 @@
+.submitbtn{
+    border-radius: 3px;
+    border-style: none;
+    width: 220px;
+    height: 30px;
+    background-image: linear-gradient(#20C4CB,#88e7ea,#20C4CB);
+    color:var(--mainTextColor);
+    font-weight: 600;
+}

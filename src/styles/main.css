@@ -3,7 +3,7 @@ body{
     height: 90vh;
 }
 
-h1{
+.greetings{
     margin-top: 40vh;
     color: aliceblue;
     font-size: 120px;

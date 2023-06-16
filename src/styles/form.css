@@ -1,0 +1,39 @@
+@import url(./variables.css);
+
+body{
+    background-color: var(--blackcolor);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width:250px;
+    height: 400px;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    box-sizing: border-box;
+    align-items: center;
+}
+.signup{
+    position:relative;
+    font-size: 24px;
+    color: var(--mainTextColor);
+    margin-top: 25vh;
+}
+
+.input{
+    position: relative;
+
+}
+
+.buttons{
+    position:relative;
+    margin-bottom: 0px;
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+}
